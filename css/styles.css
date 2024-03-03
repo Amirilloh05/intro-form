@@ -35,13 +35,18 @@
   font-display: swap;
 }
 
+
+
+
+
+
 /* CUSTOM-PROPS */
 :root {
---body-bg: #f1f4ff;
---green:#4dc490;
---purple:#655af2;
---red:#f03535;
---text-color:#000;
+  --body-bg: #f1f4ff;
+  --green:#4dc490;
+  --purple:#655af2;
+  --red:#f03535;
+  --text-color:#000;
 }
 
 
@@ -58,20 +63,20 @@ html {
 *,
 *::before,
 *::after {
-box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-display: flex;
-flex-direction: column;
-height: 100%;
-padding: 0;
-margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
   font-family: "Inter";
-font-size: 16px;
-line-height: 1.5;
-background-color: #fff;
-color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--body-bg);
+  color: var(--text-color);
 }
 
 
@@ -86,11 +91,13 @@ img {
   max-width: 1192px;
   padding-left: 20px;
   padding-right: 20px;
-margin-right: auto;
-margin-left: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* MAIN-CONTENT */
 .main-content {
-flex-grow: 1;
+  flex-grow: 1;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
